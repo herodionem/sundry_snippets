@@ -1,0 +1,1 @@
+A random assortment of code that gives an idea of what I do during the day.

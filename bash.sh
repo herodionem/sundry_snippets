@@ -1,0 +1,2 @@
+# worked this out to get rid of older git branches - works great so long as you've got master checked out ;)
+for k in $(git branch | sed /\*/d); do if [ -z "$(git log --since='2 week ago' $k)" ]; then git branch -d $k; fi; done
